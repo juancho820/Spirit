@@ -3,25 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Obstacle
-  - Coin
-  - Magneto
-  - Invencibilidad
-  - FxTemporaire
-  - bajarCamara
-  - subirCamara
-  - Obstacle2
-  - Obstacle3
-  - Obstacle4
-  - bajarCamaraTren
-  - subirCamaraTren
-  - Ramp
-  - Tutorial
-  - Tutorial1
-  - Tutorial2
-  - Tutorial3
-  - Final
+  tags: []
   layers:
   - Default
   - TransparentFX
