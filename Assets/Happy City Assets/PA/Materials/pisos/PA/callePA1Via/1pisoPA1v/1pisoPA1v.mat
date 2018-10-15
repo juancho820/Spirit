@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 1pisoPA1v
   m_Shader: {fileID: 4800000, guid: aeb00475b38c58741b279a0e27761cd6, type: 3}
@@ -39,9 +39,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 040e204cb54c0bf4bb131b81a336f97f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: 51351227646118749902b2e67fb5c2d6, type: 3}
+        m_Scale: {x: -0.8, y: -0.14}
+        m_Offset: {x: 3.4, y: -4.86}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -51,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 113b32e7eb3cc0a43abed2ccb048fc07, type: 3}
+        m_Texture: {fileID: 2800000, guid: 845cab94fb2a32446833f4387f7ea36e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -59,9 +59,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionTex:
-        m_Texture: {fileID: 2800000, guid: bc1941053f89c764f8e6474ab25b59e2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8dbbd2549f3c6754fb577a76cdd518b9, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 0.14, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -85,5 +85,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.46226418, g: 0.26752377, b: 0.05887327, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

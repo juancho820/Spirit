@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: calleInicio
   m_Shader: {fileID: 4800000, guid: aeb00475b38c58741b279a0e27761cd6, type: 3}
@@ -39,19 +39,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 475224072da64324c849f1fc6cedc361, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 51351227646118749902b2e67fb5c2d6, type: 3}
+        m_Scale: {x: 1, y: 0.15}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicTex:
-        m_Texture: {fileID: 2800000, guid: 693c5f08056b07145a4d2ba40dc23f62, type: 3}
+        m_Texture: {fileID: 2800000, guid: 884362ccd21a98a4293dacbadbff2d5a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 8ba493f5d2adc4442bba945523a63d12, type: 3}
+        m_Texture: {fileID: 2800000, guid: 845cab94fb2a32446833f4387f7ea36e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionTex:
-        m_Texture: {fileID: 2800000, guid: 36e150ad169187a4bb06e0d570c65c92, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8dbbd2549f3c6754fb577a76cdd518b9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -85,5 +85,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.46226418, g: 0.26752377, b: 0.05887327, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

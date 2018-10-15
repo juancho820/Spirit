@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: pisoPA3v
   m_Shader: {fileID: 4800000, guid: aeb00475b38c58741b279a0e27761cd6, type: 3}
@@ -39,29 +39,29 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: cf901aad67b6d7a4b801c5039cc48dbe, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: 51351227646118749902b2e67fb5c2d6, type: 3}
+        m_Scale: {x: 0.16, y: 0}
+        m_Offset: {x: 0.1, y: 0.06}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicTex:
-        m_Texture: {fileID: 2800000, guid: ace2ad9ce2a416c46a80f471ee4c9b84, type: 3}
+        m_Texture: {fileID: 2800000, guid: 884362ccd21a98a4293dacbadbff2d5a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: cc626ae88b1bb6843b688c85b9ebb89f, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 845cab94fb2a32446833f4387f7ea36e, type: 3}
+        m_Scale: {x: 1, y: 1.34}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionTex:
-        m_Texture: {fileID: 2800000, guid: d4407b6906aed204bae388c769dab285, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: 8dbbd2549f3c6754fb577a76cdd518b9, type: 3}
+        m_Scale: {x: 1.37, y: 0.84}
+        m_Offset: {x: -0.05, y: -2.11}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -85,5 +85,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.46226418, g: 0.26752377, b: 0.05887327, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

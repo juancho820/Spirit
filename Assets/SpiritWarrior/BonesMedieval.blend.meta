@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 3bccdc33b217647a58c34c1fe50957cb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: brazal_l
+    100006: brazal_r_001
+    100008: brazo_l
+    100010: brazo_r_001
+    100012: cabeza
+    100014: cintura
+    100016: cintura_001
+    100018: dedo1_l
+    100020: dedo1_r_001
+    100022: dedo2_l
+    100024: dedo2_r_001
+    100026: dedo3_l
+    100028: dedo3_r_001
+    100030: dedoPie_l
+    100032: dedoPie_r_002
+    100034: DwarfGuard_GEO3
+    100036: estomago
+    100038: followerOjo_l
+    100040: followerOjo_l_001
+    100042: followerOjo_r_001
+    100044: Gorra
+    100046: hombro_l
+    100048: hombro_r_001
+    100050: ingle_l
+    100052: ingle_r
+    100054: mano_l
+    100056: mano_r_001
+    100058: ojo_l
+    100060: ojo_r_001
+    100062: oreja_l
+    100064: oreja_r_001
+    100066: pecho
+    100068: pierna_l
+    100070: pierna_r_001
+    100072: plantaPie_l
+    100074: plantaPie_r_001
+    100076: tobillo_l
+    100078: tobillo_r_001
+    400000: Armature
+    400002: //RootNode
+    400004: brazal_l
+    400006: brazal_r_001
+    400008: brazo_l
+    400010: brazo_r_001
+    400012: cabeza
+    400014: cintura
+    400016: cintura_001
+    400018: dedo1_l
+    400020: dedo1_r_001
+    400022: dedo2_l
+    400024: dedo2_r_001
+    400026: dedo3_l
+    400028: dedo3_r_001
+    400030: dedoPie_l
+    400032: dedoPie_r_002
+    400034: DwarfGuard_GEO3
+    400036: estomago
+    400038: followerOjo_l
+    400040: followerOjo_l_001
+    400042: followerOjo_r_001
+    400044: Gorra
+    400046: hombro_l
+    400048: hombro_r_001
+    400050: ingle_l
+    400052: ingle_r
+    400054: mano_l
+    400056: mano_r_001
+    400058: ojo_l
+    400060: ojo_r_001
+    400062: oreja_l
+    400064: oreja_r_001
+    400066: pecho
+    400068: pierna_l
+    400070: pierna_r_001
+    400072: plantaPie_l
+    400074: plantaPie_r_001
+    400076: tobillo_l
+    400078: tobillo_r_001
+    2100000: CharTxt_MAT
+    4300000: DwarfGuard_GEO3
+    7400000: Default Take
+    7400002: ArmatureAction
+    9500000: //RootNode
+    13700000: DwarfGuard_GEO3
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
