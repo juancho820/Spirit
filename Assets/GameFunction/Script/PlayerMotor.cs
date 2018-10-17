@@ -410,6 +410,12 @@ public class PlayerMotor : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag == "Fuego")
+        {
+            //animacion de flecha
+            StartCoroutine(bolaFuego());
+        }
+
         if (Invencibilidad.powerInvenci == false)
         {
             switch (other.gameObject.tag)
@@ -526,5 +532,23 @@ public class PlayerMotor : MonoBehaviour {
     {
         yield return new WaitForSeconds(1);
         Invencibilidad.powerInvenciExtra = false;
+    }
+    public IEnumerator bolaFuego()
+    {
+        int carril = Random.Range(0, 3);
+        yield return new WaitForSeconds(1);
+        switch (carril)
+        {
+            case 0:
+                ps.transform.position = transform.position + Vector3.forward * 10;
+                break;
+            case 1:
+                ps.transform.position = transform.position + Vector3.forward * 10 + new Vector3(-3.5f, 0, 0);
+                break;
+            case 2:
+                ps.transform.position = transform.position + Vector3.forward * 10 + new Vector3(3.5f, 0, 0);
+                break;
+        }
+        ps.Play();
     }
 }

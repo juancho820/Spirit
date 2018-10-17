@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Magneto
+  - Invencibilidad
+  - subirCamara
+  - Obstacle2
+  - Obstacle3
+  - Obstacle
+  - Obstacle4
+  - Fuego
   layers:
   - Default
   - TransparentFX
