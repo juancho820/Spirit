@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: partilceMagneto
   m_Shader: {fileID: 4800000, guid: 5eefa7b577eeaee41abf5172ec6dec48, type: 3}
