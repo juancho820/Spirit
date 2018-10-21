@@ -223,13 +223,13 @@ public class GameManager : MonoBehaviour
     public void HomePause()
     {
             Pausar();
-            UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("GameScene");
     }
 
     public void Home()
     {
         PlayerPrefs.SetInt("Replay", 0);
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("GameScene");
     }
     public void Replay()
     {
@@ -242,7 +242,7 @@ public class GameManager : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt("Replay", 1);
-            UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("GameScene");
         }
     }
    public void WinSomeThing()
@@ -267,7 +267,7 @@ public class GameManager : MonoBehaviour
     public void ReplayAfterWin()
     {
         PlayerPrefs.SetInt("Replay", 1);
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("GameScene");
     }
 
 
