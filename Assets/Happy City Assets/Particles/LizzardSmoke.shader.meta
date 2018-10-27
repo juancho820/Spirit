@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 12a85d2866c9f413f8bb66d86ce5c76a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Lizzard1: {fileID: 2800000, guid: 3ca8466897a9b46aba32a16564f4221e, type: 3}
+  - _Lizzard2: {fileID: 2800000, guid: fee7c906f35b546b7b596bd4672b34f9, type: 3}
+  - _Lizzard3: {fileID: 2800000, guid: dff220b122ac34daeb904ab8ffb946e7, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

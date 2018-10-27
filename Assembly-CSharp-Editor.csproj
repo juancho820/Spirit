@@ -518,6 +518,9 @@
     <Reference Include="JMOAssets_CartoonFXFreeWelcome">
       <HintPath>/Users/juandiegomieles/Documents/UnityProyects/Spirit/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
     </Reference>
+    <Reference Include="ShaderForge">
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/Spirit/Assets/ShaderForge/Editor/ShaderForge.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/juandiegomieles/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -535,9 +538,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="ShaderForge">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/Spirit/Assets/ShaderForge/Editor/ShaderForge.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

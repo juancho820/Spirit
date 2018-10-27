@@ -111,6 +111,7 @@
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\SoftNormalsToVertexColor.cs" />
     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\Happy City Assets\Particles\Lava.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
     <None Include="Assets\ShaderForge\Readme.txt" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
@@ -120,6 +121,7 @@
     <None Include="Assets\ShaderForge\Example Assets\Shaders\Refraction.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\Parallax.shader" />
+    <None Include="Assets\Happy City Assets\Particles\LizzardSmoke.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\LightWrapping.shader" />
     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\VertexColorRounding.shader" />
@@ -130,6 +132,8 @@
     <None Include="Assets\ShaderForge\Example Assets\Shaders\PixelRotator.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\CustomLighting.shader" />
     <None Include="Assets\GameFunction\Artwork\MaterialTransparente.shader" />
+    <None Include="Assets\Happy City Assets\Particles\TranslateUV.shader" />
+    <None Include="Assets\GameFunction\Artwork\BendWorld 1.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/juandiegomieles/Documents/UnityProyects/Spirit/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

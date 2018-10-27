@@ -84,6 +84,7 @@ ModelImporter:
     400076: tobillo_l
     400078: tobillo_r_001
     2100000: CharTxt_MAT
+    2100002: CharTxt_MAT__CharTxt_Atlas_BaseColor_png
     4300000: DwarfGuard_GEO3
     7400000: Default Take
     7400002: ArmatureAction

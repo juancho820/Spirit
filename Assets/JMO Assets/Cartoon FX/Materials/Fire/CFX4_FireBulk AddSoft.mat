@@ -4,13 +4,14 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: CFX4_FireBulk AddSoft
-  m_Shader: {fileID: 202, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: bc375fde0fcef458e9e58dba5849d666, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -21,12 +22,21 @@ Material:
         m_Texture: {fileID: 2800000, guid: f71f658d2f20fdf42b41170b8319e02d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 32f9c8e782055407f811af08a8184041, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Cutoff: 0.5
+    - _Distance: 365.2
     - _InvFade: 1
+    - _node_7263: 1
+    - _velocity: -1
     m_Colors:
     - _BaseColor: {r: 0.39215687, g: 0, b: 0, a: 0.39215687}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _MaskColor: {r: 0.33088237, g: 0, b: 0, a: 0.39215687}
+    - _Offset: {r: 0, g: 0, b: -1, a: 0}
     - _TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
 --- !u!1002 &2100001
 EditorExtensionImpl:
