@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
 	public static GameManager Instance { set; get; }
 
+    private bool skipIntro;
+
     public int InvenciPower = 0;
     public int GoldenT= 0;
 
@@ -33,8 +35,10 @@ public class GameManager : MonoBehaviour
 
     public AudioClip BotonMain, BotonTienda, Loop, Main;
 
+    public AudioSource dragonAudio;
+
     // UI and UI fields
-    public Animator gameCanvas, menuAnim, CoinUIAnim, botonAnim, TapAnim;
+    public Animator gameCanvas, menuAnim, CoinUIAnim, botonAnim, TapAnim, Dragon;
     public Text scoreText, coinText, modifierText, InvenciText, WinSomeThingText;
     private float score, coinScore, modifierScore;
     private int lastScore;
@@ -105,32 +109,22 @@ public class GameManager : MonoBehaviour
 
         if (iniciado == true)
         {
+            if(MobileInput.Instance.Tap && skipIntro == true)
+            {
+                CancelInvoke("empezar");
+                empezar();
+                skipIntro = false;
+            }
+
             if (MobileInput.Instance.Tap && !isGameStarted)
             {
-                audiSourc.clip = Loop;
-                audiSourc.Play();
-                Once = true;
+                audiSourc.Stop();
                 isGameStarted = true;
                 TapAnim.gameObject.SetActive(false);
-                motor.StartRunning();
-                FindObjectOfType<GlacierSpawner>().IsScrolling = true;
-                FindObjectOfType<CamaraMotor>().IsMoving = true;
-                gameCanvas.SetTrigger("Show");
-                if (coinScore < 1000)
-                {
-                    coinText.text = coinScore.ToString("0");
-                }
-                if (coinScore > 1000)
-                {
-                    coinText.text = (coinScore / 1000).ToString("0.0 K");
-                }
-                if (coinScore > 1000000)
-                {
-                    coinText.text = (coinScore / 1000000).ToString("0.0 M");
-                }
-
-                InvenciPower = PlayerPrefs.GetInt("IntInvencibilidad");
-                InvenciText.text = InvenciPower.ToString("0");
+                Dragon.SetTrigger("Iniciado");
+                dragonAudio.Play();
+                Invoke("empezar", 9);
+                skipIntro = true;
             }
         }
 
@@ -322,5 +316,32 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         camara.GetComponent<SlidingNumber>().AddToNumber(score);
         camara.GetComponent<SlidingNumber>().AddToNumber2(coinScore);
+    }
+
+    public void empezar()
+    {
+        dragonAudio.Stop();
+        audiSourc.clip = Loop;
+        audiSourc.Play();
+        Once = true;
+        motor.StartRunning();
+        FindObjectOfType<GlacierSpawner>().IsScrolling = true;
+        FindObjectOfType<CamaraMotor>().IsMoving = true;
+        gameCanvas.SetTrigger("Show");
+        if (coinScore < 1000)
+        {
+            coinText.text = coinScore.ToString("0");
+        }
+        if (coinScore > 1000)
+        {
+            coinText.text = (coinScore / 1000).ToString("0.0 K");
+        }
+        if (coinScore > 1000000)
+        {
+            coinText.text = (coinScore / 1000000).ToString("0.0 M");
+        }
+
+        InvenciPower = PlayerPrefs.GetInt("IntInvencibilidad");
+        InvenciText.text = InvenciPower.ToString("0");
     }
 }
