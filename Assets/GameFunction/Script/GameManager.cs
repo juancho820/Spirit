@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     public AudioSource dragonAudio;
 
     // UI and UI fields
-    public Animator gameCanvas, menuAnim, CoinUIAnim, botonAnim, TapAnim, Dragon;
+    public Animator gameCanvas, menuAnim, CoinUIAnim, botonAnim, TapAnim, Dragon, CameraAnim, PlayerAnim;
     public Text scoreText, coinText, modifierText, InvenciText, WinSomeThingText;
     private float score, coinScore, modifierScore;
     private int lastScore;
@@ -122,9 +122,12 @@ public class GameManager : MonoBehaviour
                 isGameStarted = true;
                 TapAnim.gameObject.SetActive(false);
                 Dragon.SetTrigger("Iniciado");
+                CameraAnim.SetTrigger("Iniciado");
+                PlayerAnim.SetTrigger("Iniciado");
                 dragonAudio.Play();
-                Invoke("empezar", 9);
+                Invoke("empezar", 9.5f);
                 skipIntro = true;
+            
             }
         }
 
@@ -320,10 +323,12 @@ public class GameManager : MonoBehaviour
 
     public void empezar()
     {
+        camara.GetComponent<Animator>().enabled = false;
         dragonAudio.Stop();
         audiSourc.clip = Loop;
         audiSourc.Play();
         Once = true;
+
         motor.StartRunning();
         FindObjectOfType<GlacierSpawner>().IsScrolling = true;
         FindObjectOfType<CamaraMotor>().IsMoving = true;

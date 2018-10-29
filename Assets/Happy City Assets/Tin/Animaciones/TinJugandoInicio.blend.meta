@@ -224,7 +224,7 @@ ModelImporter:
     4300052: King_001
     4300054: King
     4300056: King_002
-    7400000: Default Take
+    7400000: IdleBeginWarrior
     7400002: ArmatureAction_002
     9500000: //RootNode
     13700000: King
@@ -260,7 +260,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Default Take
+      name: IdleBeginWarrior
       takeName: Default Take
       firstFrame: -1
       lastFrame: 375

@@ -100,14 +100,14 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 11
+  take: 15
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
       m_Root: 5
       m_Leaf: /Users/juandiegomieles/Desktop
       m_ForceAssetFolder: 0
-    m_FileName: VFXSWbegin
+    m_FileName: VFXSWbeginComplete
   outputFormat: 0
   videoBitRateMode: 2
   captureAlpha: 0
