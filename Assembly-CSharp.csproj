@@ -131,6 +131,7 @@
     <None Include="Assets\GameFunction\Artwork\TestTransparent.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\PixelRotator.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\CustomLighting.shader" />
+    <None Include="Assets\Happy City Assets\Particles\shieldDrake.shader" />
     <None Include="Assets\GameFunction\Artwork\MaterialTransparente.shader" />
     <None Include="Assets\Happy City Assets\Particles\TranslateUV.shader" />
     <None Include="Assets\Happy City Assets\Particles\BendWorld 1.shader" />

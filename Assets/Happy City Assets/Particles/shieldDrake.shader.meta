@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9d4738dd371634a468fb325dc328c2fe
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Scames: {fileID: 2800000, guid: 4e49883168f364cf5846a6ef9ab8e8a2, type: 3}
+  - _Scames_copy: {fileID: 2800000, guid: 4e49883168f364cf5846a6ef9ab8e8a2, type: 3}
+  - _charco: {fileID: 2800000, guid: 2d1e21e1e0ab95943ac598a15c4fa350, type: 3}
+  - _charco2: {fileID: 2800000, guid: 4f3fe3f6bc3b04b02bc2292400a5c247, type: 3}
+  - _charcoAlpha: {fileID: 2800000, guid: a57c61f189c0ce34c87929bfcf0004e8, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
