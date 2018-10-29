@@ -14,6 +14,7 @@ public class PlayerMotor : MonoBehaviour {
     public AudioClip Whoosh1, Whoosh2, Whoosh3, MagnetAudio, X2Audio, InvenciAudio, Salto1, Salto2, Salto3, SlideAudio, BlockDeadAudio, BlockDeadAudio2, JumpDeadAudio, TicketAudio;
 
     public ParticleSystem ps;
+    public ParticleSystem psFuego;
 
     private Animator anim;
 
@@ -549,6 +550,6 @@ public class PlayerMotor : MonoBehaviour {
                 ps.transform.position = transform.position + Vector3.forward * 10 + new Vector3(3.5f, 0, 0);
                 break;
         }
-        ps.Play();
+        psFuego.Play();
     }
 }
