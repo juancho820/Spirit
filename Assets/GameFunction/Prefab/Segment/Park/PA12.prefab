@@ -432,6 +432,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1636761883116148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4890657011634126}
+  - component: {fileID: 65840570066038744}
+  - component: {fileID: 114738386772156220}
+  m_Layer: 0
+  m_Name: ActivadorFuego
+  m_TagString: Fuego
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1642813614428248
 GameObject:
   m_ObjectHideFlags: 1
@@ -1043,6 +1060,7 @@ Transform:
   - {fileID: 4895948886090148}
   - {fileID: 4843722210605514}
   - {fileID: 4543983174612058}
+  - {fileID: 4890657011634126}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1255,6 +1273,19 @@ Transform:
   - {fileID: 4719880842158176}
   m_Father: {fileID: 4891149797976958}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4890657011634126
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1636761883116148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4651328460456912}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4891149797976958
 Transform:
@@ -1823,6 +1854,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1680825, y: 7.424815, z: 0.5241615}
   m_Center: {x: 0.039907277, y: -0.19552326, z: -0.13063389}
+--- !u!65 &65840570066038744
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1636761883116148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.42, y: 10.71, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65912917987902206
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -2726,6 +2769,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCoin: 3
   forceSpawnAll: 1
+--- !u!114 &114738386772156220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1636761883116148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f786c679d21878a4cb93b2d29c900af4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114746481662748242
 MonoBehaviour:
   m_ObjectHideFlags: 1

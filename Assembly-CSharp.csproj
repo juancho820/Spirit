@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\activadorBolaFuego.cs" />
     <Compile Include="Assets\GameFunction\Script\CamaraMotor.cs" />
     <Compile Include="Assets\GameFunction\Script\CamaraShake.cs" />
     <Compile Include="Assets\GameFunction\Script\Coin.cs" />
