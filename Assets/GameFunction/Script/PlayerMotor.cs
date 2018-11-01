@@ -14,7 +14,8 @@ public class PlayerMotor : MonoBehaviour {
     public AudioClip Whoosh1, Whoosh2, Whoosh3, MagnetAudio, X2Audio, InvenciAudio, Salto1, Salto2, Salto3, SlideAudio, BlockDeadAudio, BlockDeadAudio2, JumpDeadAudio, TicketAudio;
 
     public ParticleSystem ps;
-    public GameObject psFuego1,psFuego2;
+    public GameObject psFuego1;
+    public GameObject activadorFuego;
 
     private Animator anim;
 
@@ -56,6 +57,7 @@ public class PlayerMotor : MonoBehaviour {
 
     private void Start()
     {
+        StartCoroutine(activador());
         Instance = this;
         InvCooldown = PlayerPrefs.GetInt("MagCooldown");
         MagCooldown = PlayerPrefs.GetInt("InvCooldown");
@@ -71,17 +73,10 @@ public class PlayerMotor : MonoBehaviour {
 
     private void Update()
     {
-
-
-        //reinicia la animacion de las bolas de fuego
-
-        if (psFuego1.transform.position.z < transform.localPosition.z - 2)
+        if(psFuego1.transform.position.z < transform.position.z - 30)
         {
             psFuego1.GetComponent<Animator>().SetTrigger("Reiniciate");
-        }
-        if (psFuego2.transform.position.z < transform.localPosition.z - 2)
-        {
-            psFuego2.GetComponent<Animator>().SetTrigger("Reiniciate");
+            psFuego1.SetActive(false);
         }
 
 
@@ -550,29 +545,30 @@ public class PlayerMotor : MonoBehaviour {
     }
     public IEnumerator bolaFuego()
     {
-        GameObject bola;
         int carril = Random.Range(0, 3);
-        if (ContFireBall == 0)
-        {
-            bola = psFuego1;
-            ContFireBall = 1;
-        }
-        else { bola = psFuego2;
-            ContFireBall = 0;
-        }
         yield return new WaitForSeconds(1);
+        psFuego1.SetActive(true);
         switch (carril)
         {
             case 0:
-                bola.transform.position = new Vector3(0, 0, transform.position.z + 5); 
+                psFuego1.transform.position = new Vector3(0, 0, transform.position.z + 5); 
                 break;
             case 1:
-                bola.transform.position = new Vector3(-3.5f, 0, transform.position.z + 5); 
+                psFuego1.transform.position = new Vector3(-3.5f, 0, transform.position.z + 5); 
                 break;
             case 2:
-                bola.transform.position = new Vector3(3.5f, 0, transform.position.z + 5);
+                psFuego1.transform.position = new Vector3(3.5f, 0, transform.position.z + 5);
                 break;
         }
-        bola.GetComponent<Animator>().SetTrigger("Falling");
+        psFuego1.GetComponent<Animator>().SetTrigger("Falling");
+    }
+
+    public IEnumerator activador()
+    {
+        yield return new WaitForSeconds(Random.Range(6,11));
+
+        activadorFuego.transform.position = new Vector3(0, 0, transform.position.z + 5);
+
+        StartCoroutine(activador());
     }
 }

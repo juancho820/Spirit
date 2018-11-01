@@ -419,23 +419,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1385022056389946
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4908234558983392}
-  - component: {fileID: 65458072014545530}
-  - component: {fileID: 114307482180206076}
-  m_Layer: 0
-  m_Name: ActivadorFuego
-  m_TagString: Fuego
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1390309883493270
 GameObject:
   m_ObjectHideFlags: 1
@@ -1938,7 +1921,6 @@ Transform:
   - {fileID: 4260183434879046}
   - {fileID: 4418655740789614}
   - {fileID: 4994017142379330}
-  - {fileID: 4908234558983392}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1972,19 +1954,6 @@ Transform:
   - {fileID: 4974946187973258}
   m_Father: {fileID: 4994017142379330}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4908234558983392
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1385022056389946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4849852446703436}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4927224591528126
 Transform:
@@ -2710,18 +2679,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65458072014545530
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1385022056389946}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 15.42, y: 10.71, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65470256214704084
 BoxCollider:
@@ -3897,17 +3854,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PS: {fileID: 198375092117614730}
---- !u!114 &114307482180206076
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1385022056389946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f786c679d21878a4cb93b2d29c900af4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114332455633833322
 MonoBehaviour:
   m_ObjectHideFlags: 1

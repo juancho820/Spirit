@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4247708356990638}
   - component: {fileID: 65447439696298290}
-  - component: {fileID: 114242702903071116}
   m_Layer: 0
   m_Name: ActivadorFuego
   m_TagString: Fuego
@@ -35,7 +34,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1984527588299538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0, z: -19.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -53,14 +52,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 15.42, y: 10.71, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114242702903071116
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1984527588299538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f786c679d21878a4cb93b2d29c900af4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
