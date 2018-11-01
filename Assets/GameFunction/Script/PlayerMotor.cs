@@ -14,7 +14,7 @@ public class PlayerMotor : MonoBehaviour {
     public AudioClip Whoosh1, Whoosh2, Whoosh3, MagnetAudio, X2Audio, InvenciAudio, Salto1, Salto2, Salto3, SlideAudio, BlockDeadAudio, BlockDeadAudio2, JumpDeadAudio, TicketAudio;
 
     public ParticleSystem ps;
-    public ParticleSystem psFuego;
+    public GameObject psFuego1,psFuego2;
 
     private Animator anim;
 
@@ -25,7 +25,7 @@ public class PlayerMotor : MonoBehaviour {
     private bool cayo;
     private int random;
     private int LaneIn;
-
+    private int ContFireBall;
     public AudioSource Audio;
     public GameObject obj_magnetoPartPick, obj_x2PartPick, obj_starPartPick, obj_magnetoPartIdle, obj_x2PartIdle, obj_starPartIdle;
     public ParticleSystem magnetoPartPick, x2PartPick, starPartPick;
@@ -71,6 +71,20 @@ public class PlayerMotor : MonoBehaviour {
 
     private void Update()
     {
+
+
+        //reinicia la animacion de las bolas de fuego
+
+        if (psFuego1.transform.position.z < transform.localPosition.z - 2)
+        {
+            psFuego1.GetComponent<Animator>().SetTrigger("Reiniciate");
+        }
+        if (psFuego2.transform.position.z < transform.localPosition.z - 2)
+        {
+            psFuego2.GetComponent<Animator>().SetTrigger("Reiniciate");
+        }
+
+
         if (Magneto.powerMagneto == true)
         {
             slider3.gameObject.SetActive(true);
@@ -536,20 +550,29 @@ public class PlayerMotor : MonoBehaviour {
     }
     public IEnumerator bolaFuego()
     {
+        GameObject bola;
         int carril = Random.Range(0, 3);
+        if (ContFireBall == 0)
+        {
+            bola = psFuego1;
+            ContFireBall = 1;
+        }
+        else { bola = psFuego2;
+            ContFireBall = 0;
+        }
         yield return new WaitForSeconds(1);
         switch (carril)
         {
             case 0:
-                ps.transform.position = transform.position + Vector3.forward * 10;
+                bola.transform.position = new Vector3(0, 0, transform.position.z + 5); 
                 break;
             case 1:
-                ps.transform.position = transform.position + Vector3.forward * 10 + new Vector3(-3.5f, 0, 0);
+                bola.transform.position = new Vector3(-3.5f, 0, transform.position.z + 5); 
                 break;
             case 2:
-                ps.transform.position = transform.position + Vector3.forward * 10 + new Vector3(3.5f, 0, 0);
+                bola.transform.position = new Vector3(3.5f, 0, transform.position.z + 5);
                 break;
         }
-        psFuego.Play();
+        bola.GetComponent<Animator>().SetTrigger("Falling");
     }
 }

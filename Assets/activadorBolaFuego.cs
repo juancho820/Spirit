@@ -8,7 +8,8 @@ public class activadorBolaFuego : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        random = Random.Range(0, 6);
+        random = 0;
+           // Random.Range(0, 6);
 
         switch (random)
         {
