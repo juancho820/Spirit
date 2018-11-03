@@ -1870,8 +1870,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1680825, y: 7.424815, z: 0.5241615}
-  m_Center: {x: 0.039907277, y: -0.19552326, z: -0.13063389}
+  m_Size: {x: 1.1680825, y: 7, z: 0.5241615}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65367877655972476
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1882,8 +1882,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1680825, y: 8.1192875, z: 0.5241615}
-  m_Center: {x: 0.039907277, y: -0.5801616, z: -0.13063389}
+  m_Size: {x: 1.1680825, y: 7, z: 0.5241615}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65436875861490094
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1906,8 +1906,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1680825, y: 5.72648, z: 0.5241615}
-  m_Center: {x: 0.039907277, y: -0.26383853, z: -0.13063389}
+  m_Size: {x: 1.1680825, y: 7, z: 0.5241615}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65542722109225782
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1930,8 +1930,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1680825, y: 5.72648, z: 0.5241615}
-  m_Center: {x: 0.039907277, y: -0.26383853, z: -0.13063389}
+  m_Size: {x: 1.1680825, y: 7, z: 0.5241615}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65644167002042328
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1942,8 +1942,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1680825, y: 8.1192875, z: 0.5241615}
-  m_Center: {x: 0.039907277, y: -0.5801616, z: -0.13063389}
+  m_Size: {x: 1.1680825, y: 7, z: 0.5241615}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65804774761598038
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1978,8 +1978,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1680825, y: 7.424815, z: 0.5241615}
-  m_Center: {x: 0.039907277, y: -0.19552326, z: -0.13063389}
+  m_Size: {x: 1.1680825, y: 7, z: 0.5241615}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65993618614793004
 BoxCollider:
   m_ObjectHideFlags: 1
